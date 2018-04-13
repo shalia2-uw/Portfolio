@@ -1,13 +1,15 @@
 # Portfolio
 
-**Run**/
+**Run**\
 Run index.html
 
-**Technologies**/
+**Technologies**\
 HTML/CSS
 
-**Features**/
+**Features**\
 Responsive across multiple viewports
 
-**Use**/
-Works as resume
+**Use**\
+Learnt how to create responsive website
+
+
