@@ -1,0 +1,167 @@
+/*to add responsiveness*/
+.content {
+  display: flex;
+  flex-wrap: wrap;
+}
+/*setting the order of sections so that we can set required order for elements later it should be a large number */
+.project,
+.academies,
+.experience,
+.certificate {
+  order: 10;
+}
+/*changing the design for window with min-width 600*/
+@media screen and (min-width:600px) {
+  .center {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .h1 {
+    order: 1;
+    width: 20%;
+    text-align: left;
+  }
+  .h2 {
+    order: 2;
+    width: 80%;
+    text-align: right;
+  }
+  /*setting the logo width and hegiht*/
+  .header-logo {
+    width: 8em;
+    height: 5em;
+  }
+  /*setting the title width and hegiht*/
+  .header-title {
+    font-size: 2em;
+    color: #2d3c49;
+    margin-bottom: -0.5em;
+    margin-top: 0.5em;
+  }
+  .sub-title {
+    color: #2d3c49;
+    font-size: 1.5em;
+    margin-top: 0em;
+    margin-bottom: 0em;
+  }
+  /*setting the hegiht of line*/
+  hr {
+    margin-top: 0.2em;
+    height: 0.1em;
+    background-color: grey;
+  }
+  .main_image {
+    margin-top: 0.7em;
+  }
+}
+/*setting the design for width 700 and 799*/
+@media screen and (min-width:700px) and (max-width:799px) {
+  .header-logo {
+    width: 9em;
+    min-height: 2em;
+  }
+  .header-title {
+    font-size: 2.5em;
+    margin-top: 0.2em;
+    color: #2d3c49;
+    margin-top: 0.3em;
+    margin-bottom: -0.35em;
+  }
+  .sub-title {
+    color: #2d3c49;
+    font-size: 1.5em;
+  }
+  /*changing dimensions of main image*/
+  .main_image {
+    margin-top: 0.9em;
+    height:450px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  /*changing dimensions of screen shots of project image*/
+  .project_image {
+    height: 150px;
+  }
+  /*changing the order of projects*/
+  .p1 {
+    order:1;
+    width: 32%;
+    padding-left:0.3em;
+    font-size: 1.4em;
+  }
+  .p2 {
+    order: 2;
+    width: 32%;
+    padding-left: 0.3em;
+    padding-right: 0.3em;
+    font-size: 1.4em;
+  }
+  .p3 {
+    order: 3;
+    width: 32%;
+    padding-right: 0.3em;
+    font-size: 1.4em;
+  }
+}
+/*setting the design for width 800 and above*/
+@media screen and (min-width:800px) {
+  .header-logo {
+    width: 10em;
+    height: 7em;
+  }
+  .header-title {
+    font-size: 3em;
+    color: #2d3c49;
+    margin-top: 0.3em;
+    margin-bottom: -0.3em;
+  }
+  .sub-title {
+    color: #2d3c49;
+    font-size: 1.5em;
+  }
+  .main_image {
+    margin-top: 1.6em;
+    height:450px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .project_image {
+    height: 150px;
+  }
+  .p1 {
+    order:1;
+    width: 32%;
+    padding-left:0.3em;
+    font-size: 1.4em;
+  }
+  .p2 {
+    order: 2;
+    width: 32%;
+    padding-left: 0.3em;
+    padding-right: 0.3em;
+    font-size: 1.4em;
+  }
+  .p3 {
+    order: 3;
+    width: 32%;
+    padding-right: 0.3em;
+    font-size: 1.4em;
+  }
+  /*changing the order and setting of college info*/
+  .c1 {
+    width: 45%;
+    font-size: 1em;
+  }
+  .c2 {
+    width: 55%;
+    font-size: 1em;
+  }
+  /*setting the margin for whole page*/
+  .container {
+    width: 900px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
